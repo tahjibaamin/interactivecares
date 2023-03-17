@@ -1,0 +1,17 @@
+/* selector {
+    property: value;
+} */
+
+h1 {
+    color: red;
+    text-decoration: underline;
+}
+
+.para {
+    font-size: 25px;
+    color: darkblue;
+}
+
+/* p.para {
+    color: orange
+} */

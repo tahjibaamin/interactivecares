@@ -1,0 +1,30 @@
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tag selector */
+/* p {
+  color: red;
+} */
+
+/* Class Selector */
+.para {
+  color: red;
+}
+
+/* ID Selector */
+#btn {
+  color: red;
+}
+
+/* Attribute Selector */
+[href] {
+  color: red;
+}
+[href="https://yahoo.com"]
+{
+  color: red;
+}

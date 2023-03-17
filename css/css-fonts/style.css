@@ -1,0 +1,17 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap");
+/* custom fonts  */
+
+@font-face {
+  font-family: RemachineScript;
+  src: url(./fonts/RemachineScript.ttf);
+}
+h1 {
+  text-transform: capitalize;
+  font-family: RemachineScript;
+}
+p {
+  font-family: "Dancing Script", cursive;
+  font-size: 2em;
+  font-weight: 900;
+}

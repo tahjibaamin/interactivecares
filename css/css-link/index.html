@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Links</title>
+
+    <style>
+      /* a:link {
+      }
+      a:visited {
+      } */
+      /* a:hover {
+        text-decoration: none;
+      }
+      a:active {
+        color: green;
+      }
+      a:visited {
+        color: yellow;
+      } */
+      a.google {
+        text-decoration: none;
+        /* background-color: teal; */
+        background-image: linear-gradient(to right, red, yellow);
+        padding: 15px 25px;
+        /* margin-top: 100px; */
+        display: inline-block;
+        color: #fff;
+        border-radius: 15px;
+        transition: all 0.3s;
+      }
+      a.google:hover {
+        /* background-color: rgb(13, 98, 98); */
+        background-image: linear-gradient(to left, red, yellow);
+      }
+      .btn-primary {
+        padding: 10px;
+        background-color: rgb(90, 90, 231);
+        color: #fff;
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="http://google.com" target="_blank" class="google"
+      >Click to Go to Google</a
+    >
+    <a href="#" class="btn-primary">Primary</a>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+  </body>
+</html>

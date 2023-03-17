@@ -1,0 +1,21 @@
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.para-1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-decoration: none;
+}
+.para-2 {
+  text-transform: capitalize;
+  /* letter-spacing: 2px; */
+  word-spacing: 10px;
+  font-size: 18px;
+  line-height: 25px;
+  text-indent: 40px;
+  text-align: justify;
+  text-shadow: 2px 7px 3px #ce5937;
+  color: rgb(162, 0, 255);
+}
